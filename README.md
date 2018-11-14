@@ -19,7 +19,7 @@ give new password when prompted
 #### cmd> lxrun /setdefaultuser [username]
 
 
-## Configuring ssh
+## Configuring ssh (The latest versions of Windows 10 now has a built-in openSSH implementation)
 #### bash> sudo apt-get install openssh-server
 #### bash> sudo nano /etc/ssh/sshd_config
 change ssh port from 22 to 2222 or something else
